@@ -4,107 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzeria Da Gino - Autentica Pizza Italiana</title>
-    <link rel="stylesheet" href="styles.css">
+     Collegamento al nuovo file CSS esterno 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="container">
-                <h1 class="logo">🍕 Da Gino</h1>
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="chi-siamo.html">Chi Siamo</a></li>
-                    <li><a href="contatti.html">Contatti</a></li>
-                </ul>
-            </div>
+        <nav>
+            <div class="logo">🍕 Pizzeria Da Gino</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Benvenuti alla Pizzeria Da Gino</h2>
-                <p class="tagline">La vera pizza napoletana dal 1985</p>
-                <div class="hero-buttons">
-                    <a href="menu.html" class="btn btn-primary">Scopri il Menu</a>
-                    <a href="contatti.html" class="btn btn-secondary">Prenota un Tavolo</a>
-                </div>
-            </div>
-             Inserisci qui l'immagine hero della pizzeria 
-            <div class="hero-image">
-                <img src="/placeholder.svg?height=400&width=600" alt="Pizzeria Da Gino">
-            </div>
-        </section>
+     Sezione hero semplificata 
+    <section class="hero">
+        <h1>Benvenuti alla Pizzeria Da Gino</h1>
+        <p>La vera pizza napoletana dal 1975</p>
+    </section>
 
-        <section class="features">
-            <div class="container">
-                <h2 class="section-title">Perché Scegliere Da Gino</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🔥</div>
-                        <h3>Forno a Legna</h3>
-                        <p>Pizza cotta nel nostro forno a legna tradizionale per un sapore autentico</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🌾</div>
-                        <h3>Ingredienti Freschi</h3>
-                        <p>Solo ingredienti di prima qualità, selezionati ogni giorno</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">👨‍🍳</div>
-                        <h3>Maestri Pizzaioli</h3>
-                        <p>Esperienza e passione tramandata di generazione in generazione</p>
-                    </div>
-                </div>
+    <div class="container">
+        <h2 class="section-title">Perché Scegliere Da Gino</h2>
+        
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Forno a Legna">
+                <h3>🔥 Forno a Legna</h3>
+                <p>Pizza cotta nel nostro forno a legna tradizionale per un sapore autentico</p>
             </div>
-        </section>
-
-        <section class="gallery">
-            <div class="container">
-                <h2 class="section-title">Le Nostre Pizze</h2>
-                <div class="gallery-grid">
-                     Inserisci qui le immagini delle pizze 
-                    <div class="gallery-item">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Pizza Margherita">
-                        <p class="gallery-caption">Margherita</p>
-                    </div>
-                    <div class="gallery-item">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Pizza Marinara">
-                        <p class="gallery-caption">Marinara</p>
-                    </div>
-                    <div class="gallery-item">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Pizza Diavola">
-                        <p class="gallery-caption">Diavola</p>
-                    </div>
-                    <div class="gallery-item">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Pizza Quattro Formaggi">
-                        <p class="gallery-caption">Quattro Formaggi</p>
-                    </div>
-                </div>
+            
+            <div class="menu-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Ingredienti Freschi">
+                <h3>🌾 Ingredienti Freschi</h3>
+                <p>Solo ingredienti di prima qualità, selezionati ogni giorno</p>
             </div>
-        </section>
-    </main>
+            
+            <div class="menu-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Maestri Pizzaioli">
+                <h3>👨‍🍳 Maestri Pizzaioli</h3>
+                <p>Esperienza e passione tramandata di generazione in generazione</p>
+            </div>
+        </div>
 
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="menu.html" class="btn">Scopri il Nostro Menu</a>
+        </div>
+    </div>
+
+     Footer con contatti integrati 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Pizzeria Da Gino</h3>
-                    <p>La tradizione della vera pizza napoletana</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Orari</h4>
-                    <p>Lun-Dom: 12:00 - 15:00<br>18:00 - 23:00</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Contatti</h4>
-                    <p>Tel: +39 081 123 4567<br>info@dagino.it</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Pizzeria Da Gino. Tutti i diritti riservati porco.</p>
-            </div>
+        <div class="footer-content">
+            <h3>Contatti</h3>
+            <p><strong>Indirizzo:</strong> Via Roma 123, 80100 Napoli</p>
+            <p><strong>Telefono:</strong> +39 081 123 4567</p>
+            <p><strong>Email:</strong> info@pizzeriadagino.it</p>
+            <p><strong>Orari:</strong> Lun-Dom 12:00-15:00 / 18:00-23:00</p>
+            <p style="margin-top: 2rem;">&copy; 2025 Pizzeria Da Gino - Tutti i diritti riservati</p>
         </div>
     </footer>
 </body>
