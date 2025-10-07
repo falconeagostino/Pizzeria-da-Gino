@@ -72,7 +72,7 @@ nav a:hover::after {
 
 /* Sezioni principali */
 .hero {
-  background: linear-gradient(135deg, #ce2b37 0%, #a82229 100%);
+  background: linear-gradient(135deg, #da0e1b 0%, #da0e1b 100%);
   color: white;
   text-align: center;
   padding: 5rem 20px;
@@ -135,7 +135,7 @@ nav a:hover::after {
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background: linear-gradient(90deg, #009246, #ce2b37);
+  background: linear-gradient(90deg, #009246, #da0e1b);
 }
 
 /* Card per menu items */
@@ -170,7 +170,7 @@ nav a:hover::after {
 }
 
 .menu-card h3 {
-  color: #ce2b37;
+  color: #da0e1b;
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
   font-family: "Georgia", serif;
@@ -193,7 +193,7 @@ nav a:hover::after {
 /* Bottoni */
 .btn {
   display: inline-block;
-  background: linear-gradient(135deg, #ce2b37 0%, #a82229 100%);
+  background: linear-gradient(135deg, #da0e1b 0%, #da0e1b 100%);
   color: white;
   padding: 1rem 2.5rem;
   text-decoration: none;
@@ -248,7 +248,7 @@ nav a:hover::after {
   left: 0;
   right: 0;
   height: 5px;
-  background: linear-gradient(90deg, #009246, #ce2b37);
+  background: linear-gradient(90deg, #009246, #da0e1b);
   transform: scaleX(0);
   transition: transform 0.3s;
 }
@@ -263,7 +263,7 @@ nav a:hover::after {
 }
 
 .category-card h3 {
-  color: #ce2b37;
+  color: #da0e1b;
   margin-bottom: 1rem;
   font-size: 1.8rem;
   font-family: "Georgia", serif;
@@ -276,7 +276,7 @@ nav a:hover::after {
 }
 
 .category-card a {
-  color: #009246;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -284,7 +284,7 @@ nav a:hover::after {
 }
 
 .category-card a:hover {
-  color: #ce2b37;
+  color: #da0e1b;
 }
 
 /* Chi siamo */
